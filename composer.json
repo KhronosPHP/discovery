@@ -1,0 +1,29 @@
+{
+    "name": "khronos/discovery",
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "vimeo/psalm": "^5.15"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Khronos\\Discovery\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Khronos\\Discovery\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aidan Casey",
+            "email": "aidan.casey@anteris.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "psr/cache": "^3.0",
+        "illuminate/collections": "^10.28"
+    }
+}
